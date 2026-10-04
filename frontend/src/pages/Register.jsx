@@ -39,7 +39,8 @@ export default function Register(){
       <button type='submit' onClick={register}>Register</button>
       {errorMessage && <p className='error-message'>{errorMessage}</p>}
       <div className='Login-'>
-        <Link to='/login'>Login <Here></Here></Link>
+        
+        <Link to='/login'>Login Here</Link>
       </div>
     </div>
   )
